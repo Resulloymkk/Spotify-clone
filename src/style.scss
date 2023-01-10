@@ -1,0 +1,463 @@
+* {
+    font-family: sans-serif;
+}
+
+body {
+    background-color: #151515;
+
+    .panel {
+        display: flex;
+
+        .left-side {
+            width: 300px;
+            height: 100vh;
+            background-color: rgb(8, 8, 8);
+            position: fixed;
+            top: 0;
+            left: 0;
+
+            img {
+                width: 170px;
+                height: 50px;
+                padding: 30px 30px;
+            }
+
+            .ul1 {
+                a {
+                    text-decoration: none;
+                    color: gray;
+                    font-size: 20px;
+
+                    li {
+                        list-style: none;
+                        margin-top: 5px;
+
+                    }
+
+                    li:hover {
+                        color: white;
+                    }
+                }
+
+            }
+
+            .ul2 {
+                margin-top: 40px;
+
+                a {
+                    text-decoration: none;
+                    color: gray;
+                    font-size: 20px;
+
+                    li {
+                        list-style: none;
+                        margin-top: 5px;
+
+                    }
+
+                    li:hover {
+                        color: white;
+                    }
+                }
+            }
+
+            .ul3 {
+                margin-top: 300px;
+
+                a {
+                    text-decoration: none;
+                    color: gray;
+                    font-size: 15px;
+
+                    li {
+                        list-style: none;
+                        margin-top: 5px;
+
+                    }
+                }
+
+                a:hover {
+                    text-decoration: underline;
+                }
+            }
+        }
+
+        .body-side {
+            width: 100vw;
+            height: 100vh;
+            background-color: #151515;
+
+            .songs {
+                h1 {
+                    margin-left: 350px;
+                    margin-top: 100px;
+                    color: white;
+                }
+
+                h1:hover {
+                    text-decoration: underline;
+                }
+
+                .song {
+                    display: flex;
+                    margin-left: 380px;
+
+                    .song-panel {
+                        width: 200px;
+                        height: 250px;
+                        background-color: rgb(4, 4, 4);
+                        margin-left: 40px;
+                        margin-top: 10px;
+                        border-radius: 5px;
+
+                        .eminem {
+                            background-image: url('./img/notafraid.jpg');
+                            background-repeat: no-repeat;
+                            background-size: cover;
+                            width: 180px;
+                            height: 180px;
+                            position: relative;
+                            top: 2%;
+                            left: 5.3%;
+                            border-radius: 5px;
+                        }
+
+                        .anotherlove {
+                            background-image: url('./img/anotherlove.jpg');
+                            background-repeat: no-repeat;
+                            background-size: cover;
+                            width: 180px;
+                            height: 180px;
+                            position: relative;
+                            top: 2%;
+                            left: 5.3%;
+                            border-radius: 5px;
+                        }
+
+                        .ganstaparadise {
+                            background-image: url('./img/ganstaparadise.jpg');
+                            background-repeat: no-repeat;
+                            background-size: cover;
+                            width: 180px;
+                            height: 180px;
+                            position: relative;
+                            top: 2%;
+                            left: 5.3%;
+                            border-radius: 5px;
+                        }
+
+                        .maskoff {
+                            background-image: url('./img/maskoff.jpg');
+                            background-repeat: no-repeat;
+                            background-size: cover;
+                            width: 180px;
+                            height: 180px;
+                            position: relative;
+                            top: 2%;
+                            left: 5.3%;
+                            border-radius: 5px;
+                        }
+
+                        .beggin {
+                            background-image: url('./img/beggin.jpg');
+                            background-repeat: no-repeat;
+                            background-size: cover;
+                            width: 180px;
+                            height: 180px;
+                            position: relative;
+                            top: 2%;
+                            left: 5.3%;
+                            border-radius: 5px;
+                        }
+
+                        .glassanimals {
+                            background-image: url('./img/glassanimals.jpg');
+                            background-repeat: no-repeat;
+                            background-size: cover;
+                            width: 180px;
+                            height: 180px;
+                            position: relative;
+                            top: 2%;
+                            left: 5.3%;
+                            border-radius: 5px;
+                        }
+
+                        .lovely {
+                            background-image: url('./img/lovely.jpg');
+                            background-repeat: no-repeat;
+                            background-size: cover;
+                            width: 180px;
+                            height: 180px;
+                            position: relative;
+                            top: 2%;
+                            left: 5.3%;
+                            border-radius: 5px;
+                        }
+
+                        .impossible {
+                            background-image: url('./img/impossible.jpg');
+                            background-repeat: no-repeat;
+                            background-size: cover;
+                            width: 180px;
+                            height: 180px;
+                            position: relative;
+                            top: 2%;
+                            left: 5.3%;
+                            border-radius: 5px;
+                        }
+
+                        h2 {
+                            color: white;
+                            margin-left: 10px;
+                        }
+
+                        button {
+                            width: 40px;
+                            height: 40px;
+                            background-color: rgb(0, 219, 0);
+                            border-radius: 50%;
+                            border: rgb(0, 219, 0);
+                            font-size: 30px;
+                            margin-top: -20px;
+                            margin-left: 10px;
+                        }
+                    }
+
+                    .song-panel:hover {
+                        background-color: rgb(36, 36, 36);
+                    }
+                }
+            }
+
+            .last-footer {
+                margin-left: 300px;
+                margin-top: 80px;
+
+                .last-footer1 {
+                    display: flex;
+
+                    ul {
+                        margin-left: 40px;
+
+                        h2 {
+                            color: white;
+                        }
+
+                        li {
+                            list-style: none;
+                            color: gray;
+                            margin-top: 10px;
+                        }
+
+                        li:hover {
+                            color: white;
+                            text-decoration: underline;
+                        }
+                    }
+                }
+
+                .last-footer2 {
+                    margin-left: 60px;
+                    margin-top: 30px;
+                    display: flex;
+                    justify-content: space-between;
+
+                    .lastfooter21 {
+                        display: flex;
+
+                        h2 {
+                            color: gray;
+                            margin-left: 20px;
+                            margin-top: 20px;
+                            font-size: 15px;
+                        }
+
+                        h2:hover {
+                            color: white;
+                        }
+                    }
+
+                    .lastfooter22 {
+                        color: gray;
+                        font-size: 13px;
+                        margin-right: 30px;
+                    }
+                }
+
+                .space{
+                    width: 100%;
+                    height: 200px;
+                }
+            }
+
+            .top-side {
+                position: fixed;
+                top: 0;
+                right: 0;
+                width: 100%;
+
+                background-color: #101010;
+                display: flex;
+                justify-content: space-between;
+
+                .keys {
+                    display: flex;
+                    margin-left: 320px;
+                    font-size: 20px;
+
+                    h2 {
+                        margin-left: 10px;
+                        background-color: #050505;
+                        border-radius: 50%;
+                        width: 30px;
+                        height: 30px;
+                        text-align: center;
+                        color: rgb(189, 189, 189);
+                        font-weight: lighter;
+                    }
+                }
+
+                .right-side {
+                    display: flex;
+                    margin-right: 15px;
+                    margin-top: 13px;
+
+                    h2 {
+                        color: rgb(187, 187, 187);
+                        margin-right: 30px;
+                        font-size: 15px;
+                        margin-top: 18px;
+                        letter-spacing: 2px;
+                    }
+
+                    h2:hover {
+                        color: white;
+                    }
+
+                    button {
+                        width: 140px;
+                        height: 50px;
+                        border-radius: 30px;
+                        border: white;
+                        font-size: 20px;
+                    }
+
+                    button:hover {
+                        -webkit-transform: scale(1.05);
+                        -ms-transform: scale(1.05);
+                        transform: scale(1.05);
+                    }
+                }
+            }
+        }
+
+        .footer {
+            display: flex;
+            justify-content: space-between;
+            width: 100%;
+            height: 70px;
+            background: linear-gradient(#fd00a9, #7200fd, #0076fd);
+            position: fixed;
+            bottom: 0;
+            left: 0;
+
+            h2 {
+                font-size: 14px;
+                color: white;
+                margin-left: 10px;
+                letter-spacing: 2px;
+            }
+
+            h1 {
+                font-size: 16px;
+                color: white;
+                margin-left: 10px;
+            }
+
+            .Signin {
+                width: 160px;
+                height: 50px;
+                margin-top: 10px;
+                margin-right: 30px;
+                font-size: 20px;
+                border-radius: 30px;
+                border: white;
+            }
+
+            .Signin:hover {
+                -webkit-transform: scale(1.05);
+                -ms-transform: scale(1.05);
+                transform: scale(1.05);
+            }
+        }
+
+        .warn {
+            border-radius: 15px;
+            width: 600px;
+            height: 400px;
+            background-color: rgba(29, 29, 29, 0.831);
+            position: fixed;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+
+            #close{
+                float: right;
+            }
+
+            h2 {
+                color: white;
+                text-align: center;
+            }
+
+            .warn-panel {
+                position: relative;
+                top: 40%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+                text-align: center;
+
+                .freesignin {
+                    background-color: rgb(30, 255, 30);
+                    width: 150px;
+                    height: 50px;
+                    border-radius: 30px;
+                    border: rgb(30, 255, 30);
+                    font-size: 20px;
+                    font-weight: bold;
+                }
+
+                .freesignin:hover {
+                    -webkit-transform: scale(1.05);
+                    -ms-transform: scale(1.05);
+                    transform: scale(1.05);
+                }
+
+                .downlaodapp {
+                    background-color: rgba(0, 0, 0, 0);
+                    border: 1px solid white;
+                    color: white;
+                    font-size: 13px;
+                    width: 150px;
+                    height: 50px;
+                    font-weight: bold;
+                    border-radius: 30px;
+                }
+
+                .downlaodapp:hover {
+                    -webkit-transform: scale(1.05);
+                    -ms-transform: scale(1.05);
+                    transform: scale(1.05);
+                }
+
+                h3{
+                    color: white;
+                    a{
+                        text-decoration-color: white;
+                        color: white;
+                    }
+                }
+            }
+        }
+    }
+}

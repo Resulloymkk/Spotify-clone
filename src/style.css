@@ -1,0 +1,383 @@
+* {
+  font-family: sans-serif;
+}
+
+body {
+  background-color: #151515;
+}
+body .panel {
+  display: flex;
+}
+body .panel .left-side {
+  width: 300px;
+  height: 100vh;
+  background-color: rgb(8, 8, 8);
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+body .panel .left-side img {
+  width: 170px;
+  height: 50px;
+  padding: 30px 30px;
+}
+body .panel .left-side .ul1 a {
+  text-decoration: none;
+  color: gray;
+  font-size: 20px;
+}
+body .panel .left-side .ul1 a li {
+  list-style: none;
+  margin-top: 5px;
+}
+body .panel .left-side .ul1 a li:hover {
+  color: white;
+}
+body .panel .left-side .ul2 {
+  margin-top: 40px;
+}
+body .panel .left-side .ul2 a {
+  text-decoration: none;
+  color: gray;
+  font-size: 20px;
+}
+body .panel .left-side .ul2 a li {
+  list-style: none;
+  margin-top: 5px;
+}
+body .panel .left-side .ul2 a li:hover {
+  color: white;
+}
+body .panel .left-side .ul3 {
+  margin-top: 300px;
+}
+body .panel .left-side .ul3 a {
+  text-decoration: none;
+  color: gray;
+  font-size: 15px;
+}
+body .panel .left-side .ul3 a li {
+  list-style: none;
+  margin-top: 5px;
+}
+body .panel .left-side .ul3 a:hover {
+  text-decoration: underline;
+}
+body .panel .body-side {
+  width: 100vw;
+  height: 100vh;
+  background-color: #151515;
+}
+body .panel .body-side .songs h1 {
+  margin-left: 350px;
+  margin-top: 100px;
+  color: white;
+}
+body .panel .body-side .songs h1:hover {
+  text-decoration: underline;
+}
+body .panel .body-side .songs .song {
+  display: flex;
+  margin-left: 380px;
+}
+body .panel .body-side .songs .song .song-panel {
+  width: 200px;
+  height: 250px;
+  background-color: rgb(4, 4, 4);
+  margin-left: 40px;
+  margin-top: 10px;
+  border-radius: 5px;
+}
+body .panel .body-side .songs .song .song-panel .eminem {
+  background-image: url("./img/notafraid.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 180px;
+  height: 180px;
+  position: relative;
+  top: 2%;
+  left: 5.3%;
+  border-radius: 5px;
+}
+body .panel .body-side .songs .song .song-panel .anotherlove {
+  background-image: url("./img/anotherlove.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 180px;
+  height: 180px;
+  position: relative;
+  top: 2%;
+  left: 5.3%;
+  border-radius: 5px;
+}
+body .panel .body-side .songs .song .song-panel .ganstaparadise {
+  background-image: url("./img/ganstaparadise.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 180px;
+  height: 180px;
+  position: relative;
+  top: 2%;
+  left: 5.3%;
+  border-radius: 5px;
+}
+body .panel .body-side .songs .song .song-panel .maskoff {
+  background-image: url("./img/maskoff.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 180px;
+  height: 180px;
+  position: relative;
+  top: 2%;
+  left: 5.3%;
+  border-radius: 5px;
+}
+body .panel .body-side .songs .song .song-panel .beggin {
+  background-image: url("./img/beggin.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 180px;
+  height: 180px;
+  position: relative;
+  top: 2%;
+  left: 5.3%;
+  border-radius: 5px;
+}
+body .panel .body-side .songs .song .song-panel .glassanimals {
+  background-image: url("./img/glassanimals.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 180px;
+  height: 180px;
+  position: relative;
+  top: 2%;
+  left: 5.3%;
+  border-radius: 5px;
+}
+body .panel .body-side .songs .song .song-panel .lovely {
+  background-image: url("./img/lovely.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 180px;
+  height: 180px;
+  position: relative;
+  top: 2%;
+  left: 5.3%;
+  border-radius: 5px;
+}
+body .panel .body-side .songs .song .song-panel .impossible {
+  background-image: url("./img/impossible.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 180px;
+  height: 180px;
+  position: relative;
+  top: 2%;
+  left: 5.3%;
+  border-radius: 5px;
+}
+body .panel .body-side .songs .song .song-panel h2 {
+  color: white;
+  margin-left: 10px;
+}
+body .panel .body-side .songs .song .song-panel button {
+  width: 40px;
+  height: 40px;
+  background-color: rgb(0, 219, 0);
+  border-radius: 50%;
+  border: rgb(0, 219, 0);
+  font-size: 30px;
+  margin-top: -20px;
+  margin-left: 10px;
+}
+body .panel .body-side .songs .song .song-panel:hover {
+  background-color: rgb(36, 36, 36);
+}
+body .panel .body-side .last-footer {
+  margin-left: 300px;
+  margin-top: 80px;
+}
+body .panel .body-side .last-footer .last-footer1 {
+  display: flex;
+}
+body .panel .body-side .last-footer .last-footer1 ul {
+  margin-left: 40px;
+}
+body .panel .body-side .last-footer .last-footer1 ul h2 {
+  color: white;
+}
+body .panel .body-side .last-footer .last-footer1 ul li {
+  list-style: none;
+  color: gray;
+  margin-top: 10px;
+}
+body .panel .body-side .last-footer .last-footer1 ul li:hover {
+  color: white;
+  text-decoration: underline;
+}
+body .panel .body-side .last-footer .last-footer2 {
+  margin-left: 60px;
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-between;
+}
+body .panel .body-side .last-footer .last-footer2 .lastfooter21 {
+  display: flex;
+}
+body .panel .body-side .last-footer .last-footer2 .lastfooter21 h2 {
+  color: gray;
+  margin-left: 20px;
+  margin-top: 20px;
+  font-size: 15px;
+}
+body .panel .body-side .last-footer .last-footer2 .lastfooter21 h2:hover {
+  color: white;
+}
+body .panel .body-side .last-footer .last-footer2 .lastfooter22 {
+  color: gray;
+  font-size: 13px;
+  margin-right: 30px;
+}
+body .panel .body-side .last-footer .space {
+  width: 100%;
+  height: 200px;
+}
+body .panel .body-side .top-side {
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 100%;
+  background-color: #101010;
+  display: flex;
+  justify-content: space-between;
+}
+body .panel .body-side .top-side .keys {
+  display: flex;
+  margin-left: 320px;
+  font-size: 20px;
+}
+body .panel .body-side .top-side .keys h2 {
+  margin-left: 10px;
+  background-color: #050505;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  color: rgb(189, 189, 189);
+  font-weight: lighter;
+}
+body .panel .body-side .top-side .right-side {
+  display: flex;
+  margin-right: 15px;
+  margin-top: 13px;
+}
+body .panel .body-side .top-side .right-side h2 {
+  color: rgb(187, 187, 187);
+  margin-right: 30px;
+  font-size: 15px;
+  margin-top: 18px;
+  letter-spacing: 2px;
+}
+body .panel .body-side .top-side .right-side h2:hover {
+  color: white;
+}
+body .panel .body-side .top-side .right-side button {
+  width: 140px;
+  height: 50px;
+  border-radius: 30px;
+  border: white;
+  font-size: 20px;
+}
+body .panel .body-side .top-side .right-side button:hover {
+  transform: scale(1.05);
+}
+body .panel .footer {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  height: 70px;
+  background: linear-gradient(#fd00a9, #7200fd, #0076fd);
+  position: fixed;
+  bottom: 0;
+  left: 0;
+}
+body .panel .footer h2 {
+  font-size: 14px;
+  color: white;
+  margin-left: 10px;
+  letter-spacing: 2px;
+}
+body .panel .footer h1 {
+  font-size: 16px;
+  color: white;
+  margin-left: 10px;
+}
+body .panel .footer .Signin {
+  width: 160px;
+  height: 50px;
+  margin-top: 10px;
+  margin-right: 30px;
+  font-size: 20px;
+  border-radius: 30px;
+  border: white;
+}
+body .panel .footer .Signin:hover {
+  transform: scale(1.05);
+}
+body .panel .warn {
+  border-radius: 15px;
+  width: 600px;
+  height: 400px;
+  background-color: rgba(29, 29, 29, 0.831);
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+body .panel .warn #close {
+  float: right;
+}
+body .panel .warn h2 {
+  color: white;
+  text-align: center;
+}
+body .panel .warn .warn-panel {
+  position: relative;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+body .panel .warn .warn-panel .freesignin {
+  background-color: rgb(30, 255, 30);
+  width: 150px;
+  height: 50px;
+  border-radius: 30px;
+  border: rgb(30, 255, 30);
+  font-size: 20px;
+  font-weight: bold;
+}
+body .panel .warn .warn-panel .freesignin:hover {
+  transform: scale(1.05);
+}
+body .panel .warn .warn-panel .downlaodapp {
+  background-color: rgba(0, 0, 0, 0);
+  border: 1px solid white;
+  color: white;
+  font-size: 13px;
+  width: 150px;
+  height: 50px;
+  font-weight: bold;
+  border-radius: 30px;
+}
+body .panel .warn .warn-panel .downlaodapp:hover {
+  transform: scale(1.05);
+}
+body .panel .warn .warn-panel h3 {
+  color: white;
+}
+body .panel .warn .warn-panel h3 a {
+  -webkit-text-decoration-color: white;
+          text-decoration-color: white;
+  color: white;
+}/*# sourceMappingURL=style.css.map */
